@@ -1,0 +1,1 @@
+-- Seed data will be added with the first ingredient knowledge-base migration.
