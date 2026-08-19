@@ -1,3 +1,8 @@
+---
+name: layera-shipaton
+description: Guides planning, implementation, review, debugging, and release work for the Layera React Native and Expo app for RevenueCat Shipaton 2026. Use when working on Layera mobile, Supabase, ingredient extraction or normalization, the curated ingredient knowledge base, deterministic conflict logic, RevenueCat, store delivery, or Shipaton execution.
+---
+
 # Layera Shipaton Project Skill
 
 ## Purpose
@@ -12,13 +17,16 @@ This skill exists to prevent architecture drift, scope expansion, and repeated r
 
 Before non-trivial work, read:
 
-1. `/AGENTS.md`
-2. `/SHIP_PLAN.md`
-3. `/SYSTEM_SPEC.md`
-4. `/BUSINESS_PLAN.md`
-5. relevant `/docs/adr/*`
+1. `AGENTS.md`
+2. `docs/SHIP_PLAN.md`
+3. `SYSTEM_SPEC.md`
+4. `BUSINESS_PLAN.md`
+5. relevant records under `docs/adr/`
 
-Newest explicit project decisions override older planning details, but never silently override safety or deterministic-system invariants.
+`AGENTS.md` remains the highest-priority source for engineering behavior and invariants.
+`docs/SHIP_PLAN.md` overrides only the older planning sections it explicitly supersedes. Never
+silently override frozen architecture, safety, medical-language, RLS, or deterministic-system
+invariants.
 
 ---
 
