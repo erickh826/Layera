@@ -1,6 +1,9 @@
 # Layera mobile
 
-React Native + Expo application for the Layera skincare ingredient scanner and routine diary.
+Before implementation, read `../../AGENTS.md`, `../../docs/SHIP_PLAN.md`, and the active task. The local `AGENTS.md` adds Expo-specific guidance but does not replace repository rules.
+
+
+React Native + Expo application for the Layera skincare ingredient scanner and routine companion.
 
 ## Get started
 
