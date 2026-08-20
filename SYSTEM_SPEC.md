@@ -9,6 +9,8 @@
 **Primary platforms:** iOS + Android  
 **Primary objective:** Ship a polished, monetized, production-ready mobile app before the Shipaton submission deadline.
 
+> **Current v1 scope note:** `docs/SHIP_PLAN.md` supersedes this document's §5 pipeline-selection plan, §8.2–8.3 persistent routine tables for v1, and §17 milestones. The current launch uses Gemini multimodal, an 8–12 image acceptance set, transient product selection, and no persistent scheduler. All safety, validation, deterministic-engine, security, and RLS requirements below remain in force.
+
 ---
 
 ## 1. Product Summary

@@ -2,6 +2,9 @@
 
 # Layera — Codex Project Handoff
 
+> **Status:** Planning Agent memory snapshot. This file preserves context and is not the execution source of truth. For current work, follow `AGENTS.md`, then `docs/SHIP_PLAN.md`, then the active task.
+
+
 ## 1. Project
 
 **Name:** Layera
@@ -18,7 +21,7 @@
 Before changing code, read in this order:
 
 1. `AGENTS.md`
-2. `SHIP_PLAN.md`
+2. `docs/SHIP_PLAN.md`
 3. `SYSTEM_SPEC.md`
 4. `BUSINESS_PLAN.md`
 5. relevant ADRs under `docs/adr/`
@@ -39,7 +42,7 @@ BUSINESS_PLAN.md
 → product positioning and monetization intent
 ```
 
-When older documents conflict with `SHIP_PLAN.md`, prefer the latest explicit decision in `SHIP_PLAN.md`, unless that would violate an invariant in `AGENTS.md`.
+When older documents conflict with `docs/SHIP_PLAN.md`, prefer the latest explicit decision in `docs/SHIP_PLAN.md`, unless that would violate an invariant in `AGENTS.md`.
 
 Do not silently resolve major contradictions.
 

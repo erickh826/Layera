@@ -1,9 +1,12 @@
 # Phase 1 plan — Scan to Cabinet
 
+> **SUPERSEDED / HISTORICAL:** This plan records the earlier 20-label ML Kit-versus-multimodal proposal. Do not execute that pipeline. Current work follows `AGENTS.md`, `docs/SHIP_PLAN.md`, the accepted Vision ADR, and the active task under `docs/tasks/active/`.
+
+
 **Milestone:** Phase 1 vertical slice  
 **Target window:** August 13–17, 2026  
-**Status:** Planned  
-**Source of truth:** `AGENTS.md`, then `SYSTEM_SPEC.md`, then `BUSINESS_PLAN.md`
+**Status:** SUPERSEDED  
+**Historical source order:** `AGENTS.md`, then `SYSTEM_SPEC.md`, then `BUSINESS_PLAN.md`
 
 ## Outcome
 

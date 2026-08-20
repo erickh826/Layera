@@ -5,8 +5,16 @@
 **Dated:** 2026-08-16
 **Revision:** v4 — three-store redundancy (see §15)
 **Status:** Frozen for execution
-**Supersedes:** `SYSTEM_SPEC.md` §17 (milestones), `BUSINESS_PLAN.md` §20 (execution plan)
-**Leaves unchanged:** all safety, AI-responsibility, determinism, and RLS invariants in `AGENTS.md`
+**Supersedes for v1 execution:**
+- `SYSTEM_SPEC.md` §5 (Vision Spike pipeline selection), §8.2–8.3 (persistent routine tables), and §17 (milestones).
+- `BUSINESS_PLAN.md` §15–16 where they imply persistent routines, a full scheduler, or a 20-image A/B benchmark, and §20 (execution plan).
+
+**Leaves unchanged:** all safety, AI-responsibility, determinism, security, and RLS invariants in `AGENTS.md`.
+
+**Current-scope consequences:**
+- Vision uses one Gemini multimodal pipeline and an 8–12 image acceptance set; ML Kit A/B is deferred.
+- v1 uses transient product selection; it does not create `routines` or `routine_products` tables.
+- “Fix my routine” renders a lightweight rule-backed suggestion; it is not a persistent scheduler.
 
 ---
 
