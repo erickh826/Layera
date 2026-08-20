@@ -18,17 +18,20 @@ Agents must read the repository documentation before making implementation decis
 Priority order:
 
 1. `AGENTS.md`
-2. `SYSTEM_SPEC.md`
-3. `BUSINESS_PLAN.md`
-4. Current milestone / task issue
-5. Existing code and tests
-6. Agent assumptions
+2. `docs/SHIP_PLAN.md`
+3. `SYSTEM_SPEC.md`
+4. `BUSINESS_PLAN.md`
+5. Current milestone / task issue
+6. Existing code and tests
+7. Agent assumptions
 
 If two documents conflict:
 
-- `AGENTS.md` defines engineering behavior.
-- `SYSTEM_SPEC.md` defines system architecture and product implementation requirements.
-- `BUSINESS_PLAN.md` defines business positioning, monetization intent, and product strategy.
+- `AGENTS.md` defines engineering behavior and non-negotiable safety, security, and deterministic-system invariants.
+- `docs/SHIP_PLAN.md` defines the current execution plan and launch scope. It supersedes the older planning and v1-scope sections identified in that file, but never overrides `AGENTS.md` invariants.
+- `SYSTEM_SPEC.md` defines the technical architecture baseline except where `docs/SHIP_PLAN.md` explicitly records a newer execution or v1-scope decision.
+- `BUSINESS_PLAN.md` defines business positioning and monetization intent.
+- The active task defines the smallest approved implementation slice and must remain consistent with the documents above.
 
 Do not silently resolve contradictions.
 
