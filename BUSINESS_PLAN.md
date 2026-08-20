@@ -3,6 +3,8 @@
 # Shipaton 2026 — AI Skincare Ingredient Scanner & Diary
 ## Business Plan — MVP / Competition Edition
 
+> **Execution note:** This document preserves product positioning and monetization intent. `docs/SHIP_PLAN.md` is authoritative for the current v1 execution scope, dates, store strategy, Gemini acceptance protocol, and the decision to defer persistent routines and the full scheduler.
+
 ---
 
 ## 1. Executive Summary
