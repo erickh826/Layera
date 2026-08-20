@@ -1,5 +1,8 @@
 # Vision/OCR benchmark protocol
 
+> **ARCHIVED PROTOCOL:** This 20-image ML Kit-versus-multimodal comparison is retained for history only. The current v1 protocol is `benchmark/vision-acceptance/README.md`: one Gemini multimodal pipeline evaluated on an 8–12 image acceptance set. Do not rebuild Pipeline A unless explicitly requested through a new approved ADR.
+
+
 This benchmark selects the Phase 1 extraction pipeline. It is evidence for an implementation
 decision, not a product feature and not a place to tune against the holdout set.
 
