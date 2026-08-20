@@ -829,6 +829,20 @@ must be translated to the React Native / Expo equivalent or rejected.
 
 If the exact skill is unavailable, continue using the principles in this file rather than blocking implementation.
 
+
+## 23.1 Repository role skills
+
+For every Layera task, load `.codex/skills/layera-shipaton/SKILL.md`.
+
+Also load:
+
+- `.codex/skills/implement-layera-mobile/SKILL.md` for implementation, debugging, tests, native configuration, Supabase, Gemini integration, purchases, and release work;
+- `.codex/skills/govern-layera-evidence/SKILL.md` before changing INCI aliases, KB facts, conflict rules, health-adjacent copy, vision evidence, privacy disclosures, or factual store claims.
+
+Follow `docs/AGENT_SKILL_ROUTING.md` for the task matrix and evidence-to-code gate.
+
+Repository documents and the active task remain authoritative. Role skills are execution overlays only. They may narrow agent behavior but may not expand scope, alter architecture, approve medical/evidence claims, or override a newer project decision.
+
 ---
 
 # 24. Agent Collaboration Protocol
